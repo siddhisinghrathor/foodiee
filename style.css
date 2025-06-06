@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:black ;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: tomato;
+    padding: 1rem 2rem;
+    color: white;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+
+}
+.navbar a{
+    color: white;
+    text-decoration: solid;
+}
+.hero{
+    text-align: center;
+    background:"C:\Users\siing\OneDrive\Desktop\Trail\foodiee\images\image.png"no-repeat center center/cover;
+    color: white;
+    padding: 5rem 2rem;
+}
+.hero button{
+    padding: 0.75rem 1.5rem;
+    background-color: brown;
+    border: mediumblue;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: tomato;
+    padding: 1rem;
+    color: white;
+}
