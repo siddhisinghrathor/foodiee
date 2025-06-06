@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foodie Appie</title>
-    <link rel="stylesheet" href="style.css"/>
-
+  <meta charset="UTF-8">
+  <title>Foodie - Taste Delivered</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<script src="script.js"></script>
+
 <body>
-    <header>
-    <div class="navbar">
-        <h1> Foodie </h1>
-         <nav>
-            <ul>
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">Menu</a></li>
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">Home</a></li>   
-            </ul>
-         </nav>   
-    </div>
-  </header>  
+  <header>
+    <div class="logo">Foodie</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
   <section class="hero">
     <img src="images/food.png" alt="food banner" class="hero-img">
-    <h2>Cravings,I'm here</h2>
-    <p>order from here</p>
-    <button>Order Now</button>
+    <h1>Cravings? I'm here!</h1>
+    <p>Delicious meals at your doorstep.</p>
+    <button id="orderBtn">Order Now</button>
+  </section>
+
+  <section class="about">
+    <h2>About Us</h2>
+    <p>Foodie is your go-to app for satisfying hunger with the best food nearby.</p>
+  </section>
+
+  <section class="menu">
+    <h2>Popular Dishes</h2>
+    <div class="dish-list">
+      <div class="dish">Pizza</div>
+      <div class="dish">Burger</div>
+      <div class="dish">Biryani</div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Subscribe for Updates</h2>
+  <input type="email" id="emailInput" placeholder="Enter your email" />
+  <button id="subscribeBtn">Subscribe</button>gi
 
   </section>
+
   <footer>
-    <p>2025 Foodie.All Rights Reserved</p>
+    <p>2025 Foodie. All Rights Reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
-</htmlgi
+</html>
